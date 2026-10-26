@@ -1,10 +1,10 @@
 # Enterprise AI Investigation System
 
-An enterprise AI investigation platform combining Hybrid RAG, Knowledge Graphs, Multi-Agent AI, and automated validation.
+An enterprise AI investigation platform combining Hybrid RAG, Knowledge Graphs, Multi-Agent AI, and automated evidence validation.
 
 ## Evaluation
 
-4/4 tests passed � 100% evaluation score.
+**4/4 tests passed — 100% evaluation score**
 
 ## Core Features
 
@@ -17,78 +17,26 @@ An enterprise AI investigation platform combining Hybrid RAG, Knowledge Graphs, 
 - FastAPI Backend
 - React/Vite Frontend
 - NetworkX Knowledge Graph
+- Document Upload and Reindexing
 - Docker Deployment Smoke Test
 
 ## Architecture
 
+```text
 User
-  ?
+  ↓
 React Frontend
-  ?
-FastAPI
-  ?
+  ↓
+FastAPI Backend
+  ↓
 Orchestrator
-  ?
-Collector ? Analyzer ? Validator
-  ?
+  ↓
+Collector → Analyzer → Validator
+  ↓
 Hybrid RAG
-  ?
+  ↓
 Vector Database + Knowledge Graph
-  ?
+  ↓
 Local Qwen LLM
-  ?
+  ↓
 Validated Investigation Answer
-
-## Project Structure
-
-`	ext
-enterprise-ai/
-+-- agents/
-+-- app/
-+-- data/
-+-- frontend/
-+-- graph/
-+-- rag/
-+-- tests/
-+-- Dockerfile
-+-- requirements.txt
-+-- README.md
-
-
-@"
-
-## Architecture
-
-User ? React Frontend ? FastAPI ? Orchestrator ? Collector ? Analyzer ? Validator ? Hybrid RAG ? Vector DB + Knowledge Graph ? Local Qwen LLM
-
-## Project Status
-
-Core AI investigation pipeline: Complete
-
-Evaluation: 4/4 tests passed � 100%
-
-Docker deployment smoke test: Passed
-
-## Architecture
-
-User ? React Frontend ? FastAPI ? Orchestrator ? Collector ? Analyzer ? Validator ? Hybrid RAG ? Vector DB + Knowledge Graph ? Local Qwen LLM
-
-## Project Status
-
-Core AI investigation pipeline: Complete
-
-Evaluation: 4/4 tests passed � 100%
-
-Docker deployment smoke test: Passed
-
-## Architecture
-
-User ? React Frontend ? FastAPI ? Orchestrator ? Collector ? Analyzer ? Validator ? Hybrid RAG ? Vector DB + Knowledge Graph ? Local Qwen LLM
-
-## Project Status
-
-Core AI investigation pipeline: Complete
-
-Evaluation: 4/4 tests passed � 100%
-
-Docker deployment smoke test: Passed
