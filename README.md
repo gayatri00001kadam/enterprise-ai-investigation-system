@@ -40,3 +40,20 @@ Vector Database + Knowledge Graph
 Local Qwen LLM
   ↓
 Validated Investigation Answer
+
+
+
+## Project Structure
+
+```text
+enterprise-ai/
+├── agents/
+├── app/
+├── data/
+├── frontend/
+├── graph/
+├── rag/
+├── tests/
+├── Dockerfile
+├── requirements.txt
+└── README.md
