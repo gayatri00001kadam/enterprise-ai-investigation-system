@@ -1,0 +1,1 @@
+Payment Service uses PostgreSQL. The database connection pool reached its configured limit.
