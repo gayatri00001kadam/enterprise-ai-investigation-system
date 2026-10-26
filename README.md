@@ -40,3 +40,47 @@ Vector Database + Knowledge Graph
 Local Qwen LLM
   ↓
 Validated Investigation Answer
+```
+
+## Project Structure
+
+```text
+enterprise-ai/
+├── agents/
+├── app/
+├── data/
+├── frontend/
+├── graph/
+├── rag/
+├── tests/
+├── Dockerfile
+├── requirements.txt
+└── README.md
+```
+
+## Project Status
+
+- **Core AI investigation pipeline:** Complete
+- **Evaluation:** 4/4 tests passed — 100%
+- **Document upload and indexing:** Complete
+- **Knowledge Graph:** Complete
+- **React/Vite frontend:** Complete
+- **Docker deployment smoke test:** Passed
+
+## Screenshots
+
+### Investigation Result
+
+![Investigation Result](screenshots/investigation-result.png)
+
+### Knowledge Graph
+
+![Knowledge Graph](screenshots/knowledge-graph.png)
+
+### Document Management
+
+![Document Management](screenshots/document-management.png)
+
+### Investigation Dashboard
+
+![Investigation Dashboard](screenshots/investigation-dashboard.png)
